@@ -1,0 +1,115 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.clear::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+     /*  navigation section */
+.nav{
+    background-color:#101446 ;
+}
+.logo{
+    float: left;
+    width: 30%;
+}
+.logo a{
+    text-decoration: none;
+    font-size: xx-large;
+    color: white;
+    padding: 20px 20px;
+
+    display: inline-block;
+}
+.logo img{
+    margin-left: 95px;
+}
+.menu{
+    float:right;
+    width: 70%;
+    text-align: right;
+    line-height: 78px;
+}
+.menu ul li{
+    display:inline-block ;
+    margin: 0px 30px;
+    text-transform: uppercase;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.572);
+    font-weight: bold;
+}
+     /*  navigation section closd */
+
+/*   banner section start */
+.banner{
+    padding: 20% 25%;
+    text-align: center;
+    background-image: url("https://i.ibb.co/Z8q6wfD/intro-bg.jpg");
+    background-size: cover;
+    background-position:left top;
+}
+.banner h1{
+    color: white;
+    
+    font-size: 30px;
+}
+.banner p{
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    padding: 10px 0px;
+}
+.banner button{
+    padding: 10px 25px;
+    margin-top: 20px;
+    background-color: transparent;
+    border: 2px solid #337ab7;
+    background:#337ab7;
+    border-radius: 5px;
+    color: white;
+}
+/* team section start */
+.service{
+    height: 800px;
+    background:#bac1f3 ;
+    
+}
+.service h1{
+    
+    color:#1e1e1e ;
+    font-weight: bold;
+    padding-top: 50px;
+    font-size: 70px;
+}
+
+.services-box{
+    width: 21%;
+    margin: 1%;
+    float: left;
+    text-align: center;
+    padding: 1%;
+    margin-top: 52px;
+}
+
+.services-box h3{
+    color: #000;
+    padding-bottom: 20px;
+}
+/*   services are  closd*/
+
+
+.pic{
+    margin-left: 90px;
+}
+button{
+    background-color: #337ab7;
+    color: white;
+    font-size: 25px;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
